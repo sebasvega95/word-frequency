@@ -20,6 +20,7 @@ Then, to run each version
   - `./local-ht.out [options ...] file`
   - TODO
 
-`opts` can be
+`options` can be
+
   - `-j, --threads <value>` Number of threads to use
  
