@@ -1,10 +1,9 @@
 # Word frequency
 
-Count the occurrences of each word in a text file concurrently (Partitioning the text and assigning each partition to a thread) using three approaches:
+Count the occurrences of each word in a text file concurrently (Partitioning the text and assigning each partition to a thread) using two approaches:
 
   - All threads use the same global hash table with concurrency control
   - All threads have a local hash table and we merge the results
-  - MapReduce (TODO)
 
 ## Usage
 
@@ -18,7 +17,6 @@ Then, to run each version
 
   - `./global-ht.out [options ...] file`
   - `./local-ht.out [options ...] file`
-  - TODO
 
 `options` can be
 
